@@ -31,6 +31,7 @@ public class ExamenEntornos {
                    System.out.print("Ingrese una frase: ");
                     String sentence = scanner.nextLine();
                     String[] words = sentence.trim().split("\\s+");
+		    System.out.println("La frase contiene " + words.length + " palabra(s).");
                     break;
 
                 case 3:
