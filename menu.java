@@ -49,7 +49,12 @@ public class ExamenEntornos {
 			 break;
 
                 case 4:
-                    
+                    System.out.print("¿Está seguro de que desea salir? (s/n): ");
+                    char confirm = scanner.next().charAt(0);
+                    if (confirm == 's' || confirm == 'S') {
+                        exit = true;
+                        System.out.println("¡Gracias por usar el programa!");
+                    }
                     }
                     break;
 
