@@ -45,7 +45,8 @@ public class ExamenEntornos {
                             count++;
                         }
                     }
-                    break;
+                                       System.out.println("La letra '" + letter + "' aparece " + count + " vez/veces en la frase.");
+			 break;
 
                 case 4:
                     
