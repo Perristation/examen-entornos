@@ -28,7 +28,9 @@ public class ExamenEntornos {
 		break;
 
                 case 2:
-                   
+                   System.out.print("Ingrese una frase: ");
+                    String sentence = scanner.nextLine();
+                    String[] words = sentence.trim().split("\\s+");
                     break;
 
                 case 3:
