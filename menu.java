@@ -35,7 +35,16 @@ public class ExamenEntornos {
                     break;
 
                 case 3:
-                    
+                    System.out.print("Ingrese una frase: ");
+                    String phrase = scanner.nextLine();
+                    System.out.print("Ingrese una letra: ");
+                    char letter = scanner.next().charAt(0);
+                    int count = 0;
+                    for (char c : phrase.toCharArray()) {
+                        if (c == letter) {
+                            count++;
+                        }
+                    }
                     break;
 
                 case 4:
