@@ -24,7 +24,8 @@ public class ExamenEntornos {
                     String word1 = scanner.nextLine();
                     System.out.print("Ingrese la segunda palabra: ");
                     String word2 = scanner.nextLine();
-                    break;
+                    System.out.println("Resultado: " + word1 + word2);
+		break;
 
                 case 2:
                    
